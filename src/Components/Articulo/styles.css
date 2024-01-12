@@ -1,0 +1,40 @@
+#contenedorArticulo {
+  background-color: rgb(123, 119, 113);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 4px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#contenedorArticulo>p {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: rgb(110, 107, 102);
+  border-radius: 10px;
+  padding: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: 0.50s ease;
+  -webkit-transition: 0.50s ease;
+  -moz-transition: 0.50s ease;
+  -ms-transition: 0.50s ease;
+  -o-transition: 0.50s ease;
+}
+
+#contenedorArticulo>p:hover {
+  background-color: rgb(135, 131, 124);
+  box-shadow: 0px 2px 2px #ddd;
+}
+
+#contenedorArticulo>h3,
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 0px 1px #000000;
+}
